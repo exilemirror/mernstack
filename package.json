@@ -4,9 +4,8 @@
   "description": "Social network for developers",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server",
-    "server": "nodemon server"
+    "server": "nodemon server.js"
   },
   "author": "Hasshim Ali",
   "license": "MIT",
@@ -21,7 +20,6 @@
     "request": "^2.88.0"
   },
   "devDependencies": {
-    "concurrently": "^5.0.0",
-    "nodemon": "^2.0.1"
+    "concurrently": "^5.0.0"
   }
 }
