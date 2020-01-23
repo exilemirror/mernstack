@@ -22,7 +22,6 @@ const PostsSchema = new Schema({
         type: mongoose.Schema.Types.ObjectId,
         ref: 'user'
       },
-      comment:
     }
   ],
   comments: [
